@@ -1,0 +1,63 @@
+{% extends "main.html" %}
+
+{% block page_title %}
+    Blog
+{% endblock page_title %}
+
+{% block li_page_title %}
+    Blog
+{% endblock li_page_title %}
+
+{% block li1 %}
+    <li><a  class="page-scroll" href="/">Homepage </a></li>
+{% endblock li1 %}
+
+{% block li2 %}
+    <li class="active"><a class="page-scroll" href="#">Blog</a></li>
+{% endblock li2 %}
+
+{% block li3 %}
+    <li><a class="page-scroll" href="contact">Contact</a></li>
+{% endblock li3 %}
+
+{% block li4 %}
+    <li><a class="page-scroll" href="myprojects">MyProjects</a></li>
+{% endblock li4 %}
+
+{% block homepage_text %}
+
+         <div class="jumbotron">
+            <h2>My name</h2>
+            <p>
+              I'm a <a href="#" target="_blank">ninja</a>.
+            </p>
+            <p>
+                Where code comes to life and appreciation.
+            </p>
+            <div class="row">
+                <div class="row">
+
+                  <div class="col-md-3">
+                      <a href="https://github.com/KleEnder/" role="button" class="btn btn-block btn-primary">
+                          <span class="fa fa-twitter" aria-hidden="true"></span> Twitter</a>
+                  </div>
+                  <div class="col-md-3">
+                      <a href="https://github.com/KleEnder/" role="button" class="btn btn-block btn-info">
+                          <span class="fa fa-linkedin" aria-hidden="true"></span> LinkedIn</a>
+                  </div>
+                  <div class="col-md-3">
+                      <a href="https://github.com/KleEnder/" role="button" class="btn btn-block btn-success">
+                          <span class="fa fa-github-alt" aria-hidden="true"></span> GitHub</a>
+                  </div>
+                  <div class="col-md-3">
+                    <a href="https://www.smartninja.si/" role="button" class="btn btn-block btn-danger">
+                          <span class="fa fa-fire"
+                                 aria-hidden="true"></span> Smart Ninja <span class="fa fa-graduation-cap"
+                                 aria-hidden="true"></span>
+                    </a>
+                  </div>
+                </div>
+            </div>
+         </div>
+
+{% endblock homepage_text %}

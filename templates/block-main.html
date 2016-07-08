@@ -1,0 +1,78 @@
+{% extends "main.html" %}
+
+{% block page_title %}
+    Homepage
+{% endblock page_title %}
+
+{% block li_page_title %}
+    Homepage
+{% endblock li_page_title %}
+
+{% block li1 %}
+    <li class="active"><a  class="page-scroll" href="#">Homepage </a></li>
+{% endblock li1 %}
+
+{% block li2 %}
+    <li><a class="page-scroll" href="blog">Blog</a></li>
+{% endblock li2 %}
+
+{% block li3 %}
+    <li><a class="page-scroll" href="contact">Contact</a></li>
+{% endblock li3 %}
+
+{% block li4 %}
+    <li><a class="page-scroll" href="myprojects">MyProjects</a></li>
+{% endblock li4 %}
+
+{% block homepage_text %}
+    <div class="row-content">
+        <div class="col-md-12">
+            <h3>About me</h3>
+            <img class="img-responsive" src="#">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et urna semper, laoreet metus sit amet,
+              sollicitudin leo. In at arcu aliquam, convallis mauris et, dignissim ipsum. Maecenas id metus ut
+              augue tristique fermentum sit amet non nibh. Vestibulum justo ipsum, feugiat in hendrerit eget,
+              aliquam vel nisi. Vivamus facilisis tincidunt accumsan. Curabitur congue sem sem, nec tristique
+              metus interdum nec. Mauris ut nisi turpis. Vivamus tortor nunc, lacinia et posuere non, sagittis
+              suscipit dui. Fusce vel congue ex. Morbi ullamcorper, mauris vitae egestas rhoncus, massa lorem
+              gravida quam, vel vestibulum nibh turpis vel mi. Phasellus mattis purus eget blandit sagittis. In
+              facilisis maximus rutrum. Morbi dolor diam, ornare facilisis massa non, maximus pharetra nisi.
+              Donec pharetra venenatis odio quis dapibus.
+              <br>
+              Donec cursus venenatis erat, viverra tincidunt enim euismod malesuada. Nam auctor nunc purus, id
+              luctus eros blandit a. Ut eros quam, euismod eget nibh ac, condimentum gravida ipsum. Integer non
+              mollis arcu, quis dapibus augue. Nulla sagittis mattis lectus, egestas gravida arcu luctus a.
+              Phasellus consequat ut turpis et ultricies. Quisque consectetur velit vitae diam molestie laoreet.
+              Quisque eget lobortis magna, vulputate fermentum sem. In id libero fringilla, eleifend lectus
+              porttitor, finibus sapien. Duis et porta turpis.
+              <br>
+              Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam bibendum sollicitudin purus.
+              Curabitur vehicula, nunc ac pulvinar dapibus, ligula turpis cursus lectus, sed pretium quam lorem
+              sed neque. Cras tincidunt suscipit libero vel suscipit. Mauris nec quam eget purus maximus luctus.
+              Donec bibendum metus sit amet velit efficitur, sit amet imperdiet risus lacinia. Pellentesque
+              habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus finibus,
+              nibh sed sagittis finibus, urna sem interdum erat, facilisis luctus arcu massa non libero.
+              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas
+              sit amet imperdiet nibh. Nullam eget massa eu leo pharetra consequat. Vestibulum tempor mattis
+              iaculis. Nullam in orci id est cursus placerat eget tempus lacus.
+            </p>
+        </div>
+    </div>
+{% endblock homepage_text %}
+
+{% block portfolio %}
+    <div class="row-content">
+        <div class="col-md-12">
+          <h3>Look at my portfolio below, things will be added when they will be done.</h3>
+            <ul class="list-unstyled">
+              <li><a href="myprojects">MyProjects</a></li>
+              <li><a href="#">Currently work in progress.</a></li>
+              <li><a href="#">Will be on update</a></li>
+              <li><a href="#">When new things start appearing</a></li>
+              <li><a href="#">Will be updating content as soon as possible.</a></li>
+            </ul>
+          <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Baltic_Sea_%28Darlowo%29.JPG">
+        </div>
+    </div>
+{% endblock portfolio %}
